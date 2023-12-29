@@ -7,10 +7,13 @@
 </head>
 <body>
   <div class="text-black font-semibold text-2xl text-center my-6">Anime Movie</div>
-  <div id="listAnime">
-    <template id="data">
-        <img src="" alt="">
-        <h3></h3>
+  <div id="listAnime" class="grid grid-cols-5 px-4 gap-6 py-4">
+    <template id="data" class="">
+      <div class="p-2 border bg-gray-700 rounded-lg">
+        <img src="" alt="" class="w-92 h-72">
+        <h3 class="mt-1 font-bold text-lg"></h3>
+        <p class="font-medium text-lg mt-2">episodes: <span></span></p>
+      </div>
     </template>
   </div>
   <script src="index.js"></script>

@@ -20,6 +20,7 @@ fetch('https://api.jikan.moe/v4/top/anime')
         getData.querySelector('img').alt = title;
 
         getData.querySelector('h3').textContent = Anime.title
+        getData.querySelector('span').textContent = Anime.episodes
 
         anime.appendChild(getData)
     })
